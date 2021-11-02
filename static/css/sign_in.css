@@ -1,0 +1,266 @@
+.td-userform {
+	background-color: #ffffff;
+	max-width: 480px;
+	margin: 90px auto 0;
+	padding: 70px;
+}
+.td-userform .btn-block + .btn-block {
+	margin: 0;
+}
+.td-userform .btn-register,
+.td-userform .btn-fb {
+	font-size: 0.8571rem;
+	text-align: left;
+	width: 49%;
+}
+.td-userform .btn-register {
+	float: left;
+}
+.td-userform .btn-fb {
+	float: right;
+}
+.td-userform .btn-fb i {
+	margin-right: 0.5rem;
+}
+.td-userform-footer {
+	margin-top: 1.857rem;
+	font-size: 0.8571rem;
+	font-weight: 300;
+	font-style: italic;
+	color: black;
+}
+.td-userform-footer p {
+	margin-bottom: 0;
+}
+.text-xs-left {
+	text-align: left !important;
+}
+.jumbotron {
+	padding: 2rem 1rem;
+	margin-bottom: 2rem;
+	background-color: #eceeef;
+	border-radius: 0.3rem;
+}
+@media (min-width: 544px) {
+	.jumbotron {
+		padding: 4rem 2rem;
+	}
+}
+.jumbotron-hr {
+	border-top-color: #d0d5d8;
+}
+.jumbotron-fluid {
+	padding-right: 0;
+	padding-left: 0;
+	border-radius: 0;
+}
+.text-xs-center {
+	text-align: center !important;
+}
+.jumbotron h2,
+.jumbotron h1 {
+	color: #ffffff;
+}
+.jumbotron {
+	background-color: transparent;
+	padding: 7.143rem 0 10.71rem;
+	margin-bottom: 0;
+}
+.jumbotron .container {
+	max-width: 890px;
+	width: auto;
+}
+.jumbotron h1 {
+	font-size: 4rem;
+	font-weight: 700;
+	margin-bottom: 0;
+}
+.jumbotron .lead {
+	color: #ffffff;
+	font-size: 1.143rem;
+	font-weight: 400;
+	line-height: 1.75;
+	margin-bottom: 0;
+	margin-top: 1.429rem;
+}
+.jumbotron .btn.joinus {
+	margin-top: 3.571rem;
+}
+.td-home .jumbotron h1 {
+	font-size: 6.429rem;
+	text-transform: uppercase;
+}
+.td-home .jumbotron h2 {
+	font-size: 2.143rem;
+	font-weight: 700;
+	margin-bottom: 1.429rem;
+	text-transform: uppercase;
+}
+@media (max-width: 767px) {
+	.jumbotron h1 {
+		font-size: 4.5rem;
+	}
+}
+@media (max-width: 543px) {
+	.jumbotron h1 {
+		font-size: 2.857rem;
+	}
+	.jumbotron h2 {
+		font-size: 1.714rem;
+	}
+}
+.form-group label {
+	color: #000;
+	font-size: 1rem;
+	font-weight: 600;
+	margin-right: 0.5rem;
+	margin-bottom: 0;
+	text-transform: uppercase;
+}
+.form-control {
+	border: 1px solid #e8e8e8;
+	border-radius: 0;
+	color: #222;
+	display: block;
+	font-size: 1rem;
+	line-height: 1.25;
+	padding: 0.5rem 0.75rem;
+	height: 38px;
+}
+.form-control:focus {
+	border-color: #629b1f;
+    -webkit-transition: all 0.25s;
+	-moz-transition: all 0.25s;
+	-ms-transition: all 0.25s;
+	-o-transition: all 0.25s;
+	transition: all 0.25s;
+}
+.form-control {
+	height: 35px;
+	border: 0;
+	border-radius: 0;
+	background: rgb(255, 255, 255);
+	background: -moz-linear-gradient(
+		top,
+		rgba(255, 255, 255, 1) 0%,
+		rgba(212, 212, 212, 1) 100%
+	);
+	background: -webkit-linear-gradient(
+		top,
+		rgba(255, 255, 255, 1) 0%,
+		rgba(212, 212, 212, 1) 100%
+	);
+	background: linear-gradient(
+		to bottom,
+		rgba(255, 255, 255, 1) 0%,
+		rgba(212, 212, 212, 1) 100%
+	);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#d4d4d4',GradientType=0 );
+}
+select.form-control {
+	width: 350px;
+	height: 35px;
+	font-size: 0.8571rem;
+	font-weight: 300;
+	font-style: italic;
+}
+.clearfix::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.ui-helper-clearfix:before,
+.ui-helper-clearfix:after {
+	content: "";
+	display: table;
+	border-collapse: collapse;
+}
+.ui-helper-clearfix:after {
+	clear: both;
+}
+.clearfix::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.form-group {
+	margin-bottom: 1rem;
+}
+@media (min-width: 544px) {
+	.form-inline .form-group {
+		display: inline-block;
+		margin-bottom: 0;
+		vertical-align: middle;
+	}
+	.form-inline .form-control {
+		display: inline-block;
+		width: auto;
+		vertical-align: middle;
+	}
+	.form-inline .form-control-static {
+		display: inline-block;
+	}
+	.form-inline .input-group {
+		display: inline-table;
+		vertical-align: middle;
+	}
+	.form-inline .input-group .form-control,
+	.form-inline .input-group .input-group-addon,
+	.form-inline .input-group .input-group-btn {
+		width: auto;
+	}
+	.form-inline .input-group > .form-control {
+		width: 100%;
+	}
+	.form-inline .form-control-label {
+		margin-bottom: 0;
+		vertical-align: middle;
+	}
+	.form-inline .form-check {
+		display: inline-block;
+		margin-top: 0;
+		margin-bottom: 0;
+		vertical-align: middle;
+	}
+	.form-inline .form-check-label {
+		padding-left: 0;
+	}
+	.form-inline .form-check-input {
+		position: relative;
+		margin-left: 0;
+	}
+	.form-inline .has-feedback .form-control-feedback {
+		top: 0;
+	}
+}
+.td-userform .btn-fb {
+	float: right;
+}
+.td-userform .btn-fb i {
+	margin-right: 0.5rem;
+}
+.btn-fb {
+	background-color: #3b5998;
+	border-color: #3b5998;
+	color: #ffffff;
+}
+.td-userform .btn-fb {
+	font-size: 0.8571rem;
+	text-align: left;
+	width: 49%;
+}
+.td-userform .btn-block + .btn-block {
+	margin: 0;
+}
+.btn-block {
+	display: block;
+	width: 100%;
+}
+.btn-block + .btn-block {
+	margin-top: 0.5rem;
+}
+input[type="button"].btn-block,
+input[type="reset"].btn-block,
+input[type="submit"].btn-block {
+	width: 100%;
+}
